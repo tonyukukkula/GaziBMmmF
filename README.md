@@ -1,0 +1,2 @@
+# GaziBMmmF
+haydi başlayak bakak
