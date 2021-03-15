@@ -5,11 +5,11 @@
   - Sayısal kelimesi 'dijital' teriminin karşılığıdır. 
   - Analog sistemlerde elektrik sinyalleri sürekli olarak değişir ve belli sınırlar içinde her değeri alabilirler. Sayısal sistemlerde ise elektriksel sinyaller olduğu gibi iletilmez. Bu sinyallerin yerine bunlara karşı düşen rakamlar iletilir. Sayısal işlemler ikili sayısal işaretler üzerinden işlem yaptığından bu rakamlar 0 ve 1 lerdir.
 
- <p align="center">   <img src="https://github.com/busranur-sr/Sayisal-Tasarim/blob/main/signals.jpg"> </p>
+ <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/1.jpg"> </p>
   
   Elektronikte daha önce analog teknikler kullanılarak yapılan uygulamalar, günümüzde sayısal teknikler kullanılarak yapılmaktadır. Sayısal tekniğin, Analog tekniğe göre tercih edilme nedenleri aşağıdaki gibi özetleyebiliriz.
   
- <p align="center">   <img src="https://github.com/busranur-sr/Sayisal-Tasarim/blob/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202021-03-07%20094943.png"> </p>
+ <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/2.png"> </p>
 
 kaynak : https://diyot.net/analog-ve-sayisal-elektronik-sistemler/
 
@@ -33,16 +33,16 @@ kaynak : https://diyot.net/analog-ve-sayisal-elektronik-sistemler/
    Binary(İkili) sayılar yazılırken en sağdaki basamağa en düşük değerlikli bit **(Least 
  Significant Bit-LSB)**,en soldaki basamağa en yüksek değerlikli bit **(Most Significant Bit-MSB)** adı verilir. 
 
-<p align="center">   <img src="https://github.com/busranur-sr/BMT-ST/blob/main/d%C3%B6n%C3%BC%C5%9F%C3%BCm/yeni1.png"> </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni1.png"> </p>
 
 ### 1- İkilik Tabandan 10’lu Tabana Çevirme
 Binary(ikili) sayıları Decimal(Onlu) sayılara dönüştürürken her bir bit basamak ağırlığı ile çarpılıp bu sonuçların toplanması gerekir.
 
-<p align="center">   <img src="https://github.com/busranur-sr/BMT-ST/blob/main/d%C3%B6n%C3%BC%C5%9F%C3%BCm/yeni2.png"> </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni2.png"> </p>
 
-<p align="center">   <img src="https://github.com/busranur-sr/BMT-ST/blob/main/d%C3%B6n%C3%BC%C5%9F%C3%BCm/yeni3.png"> </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni3.png"> </p>
 
-<p align="center">   <img src="https://github.com/busranur-sr/BMT-ST/blob/main/d%C3%B6n%C3%BC%C5%9F%C3%BCm/yeni4.png"> </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni4.png"> </p>
 
 - Virgüllü sayılarda işlem basamaklarının nasıl olduğunu izlemek için youtube linkine bakabilrisiniz.<br/>
 	https://www.youtube.com/watch?v=Lh8ra1E-ZQ4&ab_channel=ElektronikDerslerim
@@ -50,18 +50,18 @@ Binary(ikili) sayıları Decimal(Onlu) sayılara dönüştürürken her bir bit 
 ### 2- DECİMAL SAYILARIN BİNARY SAYILARA ÇEVRİLMESİ
 Ana sayımızın  bölümü 0 olana kadar 2’ye bölüyoruz. Kalan kısmı bize 2’lik tabanın basamaklarını vermiş oluyor.
 
-<p align="center">   <img src="https://github.com/busranur-sr/BMT-ST/blob/main/d%C3%B6n%C3%BC%C5%9F%C3%BCm/yeni5.png"> </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni5.png"> </p>
 
 Aşağıda cevapları verilmiş çevirmeleri deneyerek alıştırma yapabilirsiniz.
-<p align="center">   <img src="https://github.com/busranur-sr/BMT-ST/blob/main/d%C3%B6n%C3%BC%C5%9F%C3%BCm/yeni6.png?raw=true"> </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni6.png"> </p>
 
 <p>   10 tabanındaki ondalıklı sayıları 2 tabanındaki sayı sistemine dönüştürmek için ondalıklı sayıyı 2 ile çarpıyoruz. Çıkan sonucun tam sayı kısmında bulunan 0 veya 1’i en soldan olacak şekilde yazmaya başlıyoruz. Eğer çarpımın sonucu en sonunda 1’e eşit oluyorsa çarpma işlemi biterek sonuca ulaşmış olunur. <p/>
 
-<p align="center">   <img src="https://github.com/busranur-sr/BMT-ST/blob/main/d%C3%B6n%C3%BC%C5%9F%C3%BCm/yeni7.png"> </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni7.png"> </p>
 
 Çarpmalar sonucunda sonuç hala 1 çıkmadıysa yapmanız gereken işlem aşağıdaki gibidir.
 
-<p align="center">   <img src="https://github.com/busranur-sr/BMT-ST/blob/main/d%C3%B6n%C3%BC%C5%9F%C3%BCm/yeni8.png"> </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni8.png"> </p>
 
 ## BİNARY SAYILARDA TOPLAMA
 Binary(İkilik) sayı sistemindeki temel toplama kuralları;<br/>
@@ -73,11 +73,11 @@ Binary(İkilik) sayı sistemindeki temel toplama kuralları;<br/>
 Binary sayı sisteminde de iki sayı toplandığında eğer sonuç bir haneye sığmıyorsa bir elde(cary) oluşur. Yani aynı sütunda toplanan her iki adet bir için bir üst basamağa “1” elde eklenir. 
 
 
-<p align="center">   <img src="https://github.com/busranur-sr/BMT-ST/blob/main/d%C3%B6n%C3%BC%C5%9F%C3%BCm/yeni9.png"> </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni9.png"> </p>
 
 Çözümlü Örnek-2
 
-<p align="center">   <img src="https://github.com/busranur-sr/BMT-ST/blob/main/d%C3%B6n%C3%BC%C5%9F%C3%BCm/yeni10.png"> </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni10.png"> </p>
 
 |  | Sonuç | Elde |
 | :---:   | :-: | :-: | 
@@ -87,9 +87,9 @@ Binary sayı sisteminde de iki sayı toplandığında eğer sonuç bir haneye s�
 | (1)+ 1+1=(10)+1=11 | 0 | 1 |
 | 1+1+1=11 | 11 | 0|
 
-<p align="center">   <img src="https://github.com/busranur-sr/BMT-ST/blob/main/d%C3%B6n%C3%BC%C5%9F%C3%BCm/yeni11.png"> </p>
+<p align="center">   <img src="hhttps://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni11.png"> </p>
 
-<p align="center">   <img src="https://github.com/busranur-sr/BMT-ST/blob/main/d%C3%B6n%C3%BC%C5%9F%C3%BCm/yeni12.png"> </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni12.png"> </p>
 
 ## BİNARY SAYILARDA ÇIKARMA
 
@@ -102,5 +102,5 @@ Binary(İkilik) sayı sistemindeki temel çıkarma kuralları;<br/>
 
 | | | |
 | :---: | :-: | :-: | 
-| <p align="center">   <img src="https://github.com/busranur-sr/BMT-ST/blob/main/d%C3%B6n%C3%BC%C5%9F%C3%BCm/yeni13.png"> </p> | <p align="center">   <img src="https://github.com/busranur-sr/BMT-ST/blob/main/d%C3%B6n%C3%BC%C5%9F%C3%BCm/yeni14.png"> </p> | <p align="center">   <img src="https://github.com/busranur-sr/BMT-ST/blob/main/d%C3%B6n%C3%BC%C5%9F%C3%BCm/yeni15.png"> </p> |
+| <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni13.png"> </p> | <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni14.png"> </p> | <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni15.png"> </p> |
 
