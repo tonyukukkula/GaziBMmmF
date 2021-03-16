@@ -159,3 +159,67 @@ Yani 4'er gruplara ayıracağız.<br/>
 0101 0110 1010 1110 0110 1010<br/>
 5     6     A   E     6	  A<br/>
 Sonuç:   56AE6A	
+
+## İşaretli İkili Sayılar 
+ ## **İşaretsiz ikili sayılar**:  
+ Sekiz bitlik bir belleğin herbir gözü bir sayı saklamak amacıyla kullanılırsa 28=256 değişik işaretsiz sayıyı saklama olanağı vardır. 
+  - 0000 0000 -> 0 
+  - 1111 1111  -> 255    
+  - 
+ # **İşaretli İkili Sayılar**: 
+ İkilik bir sayının işaretini belirtmek için iki yöntem kullanılır: 
+ ## 1. İkilik sayıdaki sekiz bitten bir tanesini işaret bitine ayırılır. 
+ En Yüksek Anlamlı Bit (YAB) işaret biti olarak kullanılır. 
+   - YAB’in 1 olması sayının negatif, 0 olması pozitif olduğu anlamına gelir.
+      - 1111 1111 -127 
+      - 1000 0001 – 1
+      - 0000 0000 0 
+      - 0111 1111 127 
+
+       **Pozitif** sayıların kodlanmasında ( işaretsiz sayılarda olduğu gibi) “doğal ağırlıklı ikili kodlama “ kullanılır. Dikkay edilmesi gerekilen nokta sayının 0 ile başlamasıdır. Buna göre 8 bit ile temsil edilebilecek pozitif işaretli sayılar: 0000 0000 ile 0111 1111 arasında (yani 0 ile +127) değişecektir.<br/>
+      Ancak negatif sayılarda bu yöntem yeterli olmamaktadır çünkü 
+-	01101 sayısı işaretsiz sayılar için 13 ve işaretli sayılar için +13 
+-	11101 sayısı işaretsiz sayılar için 29 ve işaretli sayılar için -9 anlamına gelir.
+
+**Negatif** sayılar 1’in tümleyeni ya da 2’nin tümleyeni olarak tutulur ancak 2’nin tümleyeni gösterimi daha yaygındır.<br/>
+
+ ## 2. Tümleme yöntemi: 
+    - r-1 tabanında tümleyen<br/>
+    - r tabanında tümleyen<br/>
+  Buradaki r harfi tümleme işleminin yapıldığı basamağı temsil eder.<br/>
+    Örneğin iki tabanı için;<br/>
+       • 2’nin tümleyeni r tümleyen<br/>
+       • 1’in tümleyeni r-1 tümleyendir.<br/>
+ On tabanı için;<br/>
+    • 10’un tümleyeni r tümleyen<br/>
+    • 9’un tümleyeni r-1 tümleyendir.<br/>
+    
+### r-1 tabanında Tümleyen
+   r tabanlı bir tam sayı sisteminde n basamaklı pozitif tamsayı N ile gösterilirse N sayısının r-1 rümleyeni;
+                                   <p align="center">   **(r(n) -1 ) – N** </p> 
+-	23 desimal sayısının 9(r-1) tümleyeni => 102-1-23 = 99 - 23 = 76
+-	2314 desimal sayısının 9’a tümlenini =>10000-1-2314 =9999-2314=7685
+
+İkili sayılarda kısaca 0 ları 1, 1 leri 0 yaparak elde edilebilir.
+-	(101101)2  binary sayısının 1’re(r-1) tümleyeni => 010010
+### r tabanında Tümleyen 
+  r tabanlı bir tam sayı sisteminde n basamaklı pozitif tamsayı N ile gösterilirse N sayısının r tümleyeni ;
+                                  <p align="center">   **Nr=rn-N** </p> 
+olarak tanımlanabilir
+
+-	23 sayısının 10 tümleyeni => 102-23 = 100 – 23 = 77<br/>
+
+İkilik bir sayının 2’ye tümleyenini bulmak için önce sayının 1’e tümleyeni alınır ardından 1 eklenir.<br/>
+-	110010 binary sayısının 2 (r) tümleyeni : 001101 + 1     : 001110(2)
+
+## İşaretli Sayılarda Toplama 
+Yapılan işlem işaretsiz sayılarda yaptığımıla aynıdır ancak yorumlanması farklı yapılır. n bitlik işaretli iki sayının toplanması sonucu (n+1). bit oluşuyorsa bu bit göz ardı edilir(taşma). Burada önemli olan negatif sayıların 2’nin tümleyeni şekilde yazılması ve eğer sonuç negatif çıkıyorsa bu sonuncunun 2’nin tümleyeni olarak elde edildiğini göstermesidir.<br/>
+- Örnek
+  - 00000001 -> 1
+  - 1’in tümleyini    : 11111110
+  - 2’nin tümleyeni : 1111110 + 1 : 11111111   
+  <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/25.png"> </p>
+  <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/26.png"> </p>
+   -1 ile 3'ün toplanması sırasında en sol bitlerden bir elde gelir. Bu elde ihmal edildiğinde doğru sonuca ulaşılmış olunur.
+   <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/27.png"> </p>
+        Kırmızı olan taşan bitler oldukları için dikkate alınmıyor. Eğer sayı 0 ile başlıyorsa pozitiftir ve normal gösterilmiştir ancak eğer 1 ile başlıyorsa negatiftir ve sayı 2’ nin tümleyeni şeklinde gösteriliyordur.
