@@ -117,7 +117,7 @@ Binary(İkilik) sayı sistemindeki temel çıkarma kuralları;<br/>
 | :---: | :-: | 
 | <p>   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni17.png"> </p> | <p>   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni18.png"> </p> | 
 
- <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni19.png"> </p>
+ <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni19.png" width="200"> </p>
  
 ## BİNARY SAYILARDA BÖLME
 
@@ -126,8 +126,8 @@ Binary(İkilik) sayı sistemindeki temel çıkarma kuralları;<br/>
  - 0 ÷ 1 = 0 
  - 1 ÷ 0 = 0 
  - 1 ÷ 1 = 1
-<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni20.png"> </p>
-<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni21.png"> </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni20.png" width="200"> </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni21.png" width="200"> </p>
 
 Detaylı anlatım için buradan izleyebilirsiniz:
 - https://www.youtube.com/watch?v=oPgNeL8VotA&ab_channel=RealElectronicsTR
@@ -137,19 +137,19 @@ Detaylı anlatım için buradan izleyebilirsiniz:
    1. 8’lik tabandan 2’lik tabana çevirme
      2^n (2 üzeri n) formülüne baktığımızda 8 tabanında yazılan bir sayının 3 bitten oluşması gerekir. N yerine 3 yazdığımızda 8 sayısına ulaşırız çünkü. Örnek olarak:
      
- <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni22.png"> </p>
+ <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni22.png" width="200"> </p>
  Örneğini verebiliriz.
 
    2. 2’lik tabandan 8’lik tabana çevirme
 Bu kısımda ise elimizdeki 2’lik tabandaki sayıları sağdan başlayarak 3’erli gruplara ayırıyoruz. Eğer en sonda kalan sayımız 3 basamaktan az ise en soluna eksik basamak kadar 0 yazarak basamakları 3’e tamamlıyoruz. Daha sonra her 3’lü grupta çıkan sonuç 8’lik tabandaki sayının bir basamağını oluşturmaktadır. Örnek vermek gerekirse:
 
-<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni23.png"> </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni23.png" width="200"> </p>
 
 ## D. Hexadecimal(16’lı) Sayı Sistemi 	
 Hexadecimal sayı sistemlerde 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F 
 Kullanılır. 9’dan sonrasında harflere geçilmesinin sebebi 10 ile 1-0’ın karışmasını önleyerek karışıklığı ortadan kaldırmaktır. Hexadecimal sayıların 2’lik tabandaki gösterimi aşağıdaki gibidir:
 
-<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni24.png"> </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/yeni24.png" width="200"> </p>
 Sayıyı kafadan istediğimiz gibi verebiliriz. Örneğin sayımız (1001011111111011)₂ bunu 16 tabanına çevirelim.<br/>
 16 = 2⁴<br/>
 Yani 4'er gruplara ayıracağız.<br/>
@@ -218,8 +218,8 @@ Yapılan işlem işaretsiz sayılarda yaptığımıla aynıdır ancak yorumlanma
   - 00000001 -> 1
   - 1’in tümleyini    : 11111110
   - 2’nin tümleyeni : 1111110 + 1 : 11111111   
-  <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/25.png"> </p>
-  <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/26.png" width="50"> </p>
+  <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/25.png" width="200"> </p>
+  <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/26.png" width="200"> </p>
    -1 ile 3'ün toplanması sırasında en sol bitlerden bir elde gelir. Bu elde ihmal edildiğinde doğru sonuca ulaşılmış olunur.
-   <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/27.png"> </p>
+   <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/27.png" width="200"> </p>
         Kırmızı olan taşan bitler oldukları için dikkate alınmıyor. Eğer sayı 0 ile başlıyorsa pozitiftir ve normal gösterilmiştir ancak eğer 1 ile başlıyorsa negatiftir ve sayı 2’ nin tümleyeni şeklinde gösteriliyordur.
