@@ -219,7 +219,7 @@ Yapılan işlem işaretsiz sayılarda yaptığımıla aynıdır ancak yorumlanma
   - 1’in tümleyini    : 11111110
   - 2’nin tümleyeni : 1111110 + 1 : 11111111   
   <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/25.png"> </p>
-  <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/26.png"> </p>
+  <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/26.png" width="50"> </p>
    -1 ile 3'ün toplanması sırasında en sol bitlerden bir elde gelir. Bu elde ihmal edildiğinde doğru sonuca ulaşılmış olunur.
    <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/27.png"> </p>
         Kırmızı olan taşan bitler oldukları için dikkate alınmıyor. Eğer sayı 0 ile başlıyorsa pozitiftir ve normal gösterilmiştir ancak eğer 1 ile başlıyorsa negatiftir ve sayı 2’ nin tümleyeni şeklinde gösteriliyordur.
