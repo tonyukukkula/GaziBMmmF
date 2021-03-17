@@ -250,11 +250,13 @@ Yapılan işlem işaretsiz sayılarda yaptığımıla aynıdır ancak yorumlanma
 
 ## R-1 Tümleyen ile Çıkarma
  Çıkan sayının (r-1) tümleyeni alınıp çıkarılan sayısa eklenir. Sonuç yorumlanır. Yani eğer taşma biti oluşursa bu de atılır ve çıkan değerin 1 fazlası işlem sonucumuzu verir. Ancak oluşmazsa elde ettiğimiz değer sonucumuzun tümleyen halidir. Sonucu elde etmek için (r-1) tümleyenini almamız gerekir.
-<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/36.png"> </p>
-<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/37.png"> </p>
-<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/38.png"> </p>
-<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/39.png"> </p>
-<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/40.png"> </p>
+| | |
+| :---: | :-: | 
+| <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/36.png"> </p> | <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/37.png"> </p> |
+| | | |
+| :---: | :-: | :-: | 
+| <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/38.png"> </p> | <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/39.png"> </p> | <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/40.png"> </p>| 
+
 <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/41.png"> </p>
 # Kodlamalar 
   Herhangi bir sayı sisteminin belli ve sistematik yollarla değiştirilmesi
