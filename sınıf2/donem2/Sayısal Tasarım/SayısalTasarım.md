@@ -212,6 +212,13 @@ olarak tanımlanabilir
 İkilik bir sayının 2’ye tümleyenini bulmak için önce sayının 1’e tümleyeni alınır ardından 1 eklenir.<br/>
 -	110010 binary sayısının 2 (r) tümleyeni : 001101 + 1     : 001110(2)
 
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/ara1.png" > </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/ara2.png" > </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/ara3.png" > </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/ara4.png" > </p>
+
+
+
 ## İşaretli Sayılarda Toplama 
 Yapılan işlem işaretsiz sayılarda yaptığımıla aynıdır ancak yorumlanması farklı yapılır. n bitlik işaretli iki sayının toplanması sonucu (n+1). bit oluşuyorsa bu bit göz ardı edilir(taşma). Burada önemli olan negatif sayıların 2’nin tümleyeni şekilde yazılması ve eğer sonuç negatif çıkıyorsa bu sonuncunun 2’nin tümleyeni olarak elde edildiğini göstermesidir.<br/>
 - Örnek
@@ -223,3 +230,20 @@ Yapılan işlem işaretsiz sayılarda yaptığımıla aynıdır ancak yorumlanma
    -1 ile 3'ün toplanması sırasında en sol bitlerden bir elde gelir. Bu elde ihmal edildiğinde doğru sonuca ulaşılmış olunur.
    <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/27.png" width="500"> </p>
         Kırmızı olan taşan bitler oldukları için dikkate alınmıyor. Eğer sayı 0 ile başlıyorsa pozitiftir ve normal gösterilmiştir ancak eğer 1 ile başlıyorsa negatiftir ve sayı 2’ nin tümleyeni şeklinde gösteriliyordur.
+    <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/28.png" width="500"> </p>
+    <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/29.png" width="500"> </p>
+    <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/30.png" width="500"> </p>
+    <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/31.png" width="500"> </p>
+    
+  ## İşaretli Sayılarda Çıkarma 
+ İki şekilde yapılır.
+ - r tümleyenler çıkarma
+ - r-1 tümleyenle çıkarma
+ 
+### R Tümleyenler Çıkarma
+<p>  Çıkan sayının (r) tümleyeni alınıp çıkarılan sayısa eklenir. Sonuç yorumlanır. Yani eğer taşma biti oluşursa bu değer atılır ve çıkan değer işlem sonucumuzu verir. Ancak oluşmazsa elde ettiğimiz değer sonucumuzun tümleyen halidir. Sonucu elde etmek için (r) tümleyenini almamız gerekir.
+<p/>
+ <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/33.png"> </p>
+ <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/32.png"> </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/34.png"> </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/35.png"> </p>
