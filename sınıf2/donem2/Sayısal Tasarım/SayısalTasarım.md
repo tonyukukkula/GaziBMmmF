@@ -237,13 +237,49 @@ Yapılan işlem işaretsiz sayılarda yaptığımıla aynıdır ancak yorumlanma
     
   ## İşaretli Sayılarda Çıkarma 
  İki şekilde yapılır.
- - r tümleyenler çıkarma
- - r-1 tümleyenle çıkarma
+ - r tümleyen ile çıkarma
+ - r-1 tümleyen ile çıkarma
  
-### R Tümleyenler Çıkarma
+### R Tümleyen ile  Çıkarma
 <p>  Çıkan sayının (r) tümleyeni alınıp çıkarılan sayısa eklenir. Sonuç yorumlanır. Yani eğer taşma biti oluşursa bu değer atılır ve çıkan değer işlem sonucumuzu verir. Ancak oluşmazsa elde ettiğimiz değer sonucumuzun tümleyen halidir. Sonucu elde etmek için (r) tümleyenini almamız gerekir.
 <p/>
  <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/33.png"> </p>
  <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/32.png"> </p>
 <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/34.png"> </p>
 <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/35.png"> </p>
+
+## R-1 Tümleyen ile Çıkarma
+ Çıkan sayının (r-1) tümleyeni alınıp çıkarılan sayısa eklenir. Sonuç yorumlanır. Yani eğer taşma biti oluşursa bu de atılır ve çıkan değerin 1 fazlası işlem sonucumuzu verir. Ancak oluşmazsa elde ettiğimiz değer sonucumuzun tümleyen halidir. Sonucu elde etmek için (r-1) tümleyenini almamız gerekir.
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/36.png"> </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/37.png"> </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/38.png"> </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/39.png"> </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/40.png"> </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/41.png"> </p>
+# Kodlamalar 
+  Herhangi bir sayı sisteminin belli ve sistematik yollarla değiştirilmesi
+olayına kodlama denir.
+
+## İkili Kodlanmış Onluk Kod (İKO)
+  Her onluk basamağı bir ikilik kodda göstermenin bir yoludur. Bu sistemde yalnızca on kod grubu bulunduğu için onluk ve İKO sistemleri arasında dönüşüm çok kolaydır. Onluk sayısı iko olarak kodlamak için kolayca onluk sayının rakamlarını ayrı ayrı dörder bir olarak kodlanır. Soldaki sıfırlar asla atılmaz.
+  <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/42.png"> </p>
+  
+## Gray Kodu
+  Gray kodu rakamların ağırlığı olmayan ve aritmetik olmayan bir koddur. En önemli
+özelliği bir durumdan diğer duruma geçerken sadece bir bit değer değiştirebilir
+  <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/43.png"> </p>
+## ASCII Kodu
+ Sayısal olmayan veriler için standart kod American Standard
+Code for Information Interchange (ASCII) olarak kabul
+edilmiştir.
+ 128 karakter 7 bit ile kodlanır. Ancak çoğu bilgisayar bir byte
+üzerinde yani 8 bit üzerinde bu verileri saklar. Bu nedenle char
+veri tipleri bellekte bir byte olarak saklanır.
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/45.png"> </p>
+### Hata Tespit Kodu 
+- Yukarıda karakterlerin 7 bit ile kodlandığını belirtmiştik. Fazla olan 8. bit veri transferinde parite biti olarak eklenir.
+-  Parite biti alıcıya mesaj göndermek için kullanılan bittir.
+Gönderilen verinin toplamının tek mi çift mi olduğunu belirtir.
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/44.png"> </p>
+Örnek : List the ASCII code for the 8 octal digits with an odd parity bit in the leftmost position. 
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/46.png"> </p>
