@@ -286,3 +286,58 @@ Gönderilen verinin toplamının tek mi çift mi olduğunu belirtir.
 <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/44.png"> </p>
 Örnek : List the ASCII code for the 8 octal digits with an odd parity bit in the leftmost position. 
 <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/46.png"> </p>
+
+# Boole Cebri 
+Boole Cebri, İngiliz matematikçisi olan George Boole'nin 1850 yıllarında Aristonun mantık bilimine
+sembolik şekil verme isteği sonucunda ortaya çıkmıştır. Geliştirdiği cebir ile sayısal devrelerin analiz
+ve tasarımı sağlanmaktadır. Bu sistemde yalnızca 0 ve 1'ler yer almaktadır.  
+
+## Boole Cebri Teoremleri 
+- Değişme Özelliği 
+  - A + B = B + A
+  - A * B = B * A
+- Birleşme Özelliği
+  - A + B + C = (A + B) + C = A + (B + C)
+  - A . B . C = (A . B) . C = A . (B . C)
+- Dağılma Özelliği
+  - A + (B . C) = (A + B) . (A + C)
+  - A . (B + C) = A . B + A . C
+- Değişkende Fazlalık Özelliği
+  - A + A = A
+  - A . A = A
+- VE Kuralı
+  - A . 1 = A (Etkisiz eleman)
+  - A . 0 = 0 (Yutan eleman)
+- VEYA Kuralı
+  - A + 1 = 1 (Yutan eleman)
+  - A + 0 = A (Etkisiz eleman)
+- Tümleyen İfadesi
+  - A + A’ = 1
+  - A . A’ = 0  
+- Tümleyenin Tümleyeni 
+  - (A’)’ = A
+  - ((A + B)’)’ = A + B
+- De Morgan Kuralı
+  - (A + B)’ = A’. B’
+  - (A . B)’ = A’ + B’
+- Yutma Kuralı
+  - A + A . B = A
+  - A . (A + B) = A
+
+| | |
+| :---: | :-: | 
+| <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/47.png"> </p> | <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/48.png"> </p> |
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/49.png"> </p> | <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/50.png"> </p> 
+Örnelerin devamı : http://www.elobilgi.com/wp-content/files/Boolean-ile-sadelestirme-cozumler.pdf 
+
+## Doğruluk tablosu 
+Lojik devrelerde, giriş değişkenlerinin alabileceği sayısal değerleri(kombinasyonları) ve bu kombinasyonlara göre çıkışların durumunu gösteren tablolara ' doğruluk tablosu denir. 
+
+| | |
+| :---: | :-: | 
+| <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/51.png"> </p> | <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/dogruluk.jpg"> </p> |
+
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/52.png"> </p> 
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/53.png"> </p> 
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/54.png"> </p> 
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/55.png"> </p> 
