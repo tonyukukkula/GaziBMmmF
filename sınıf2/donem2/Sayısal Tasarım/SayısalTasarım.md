@@ -353,3 +353,30 @@ Lojik devrelerde, giriş değişkenlerinin alabileceği sayısal değerleri(komb
 | <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/60.png"> </p> | <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/61.png"> </p> |
 | :---: | :-: | 
 | <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/62.png"> </p> | <p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/63.png"> </p> | 
+
+## Kanotik ve Standart Formlar
+
+### Miniterim  (Çarpımların Toplamı):
+Standart çarpımlar toplamı şeklinde ifade edilmiş bir lojik ifade deki her
+terim minterm ismiyle anılır. Üç değişken içeren bir lojik ifade, 8 adet minterm (2^3)içerir. Bu mintermler, girişlerin sadece belli bir kombinasyonunda 1 değerini alırlar. Mintermler indis ile ifade edilirler. İndis, mintermin değerini 1 yapan değişken kombinasyonunun decimal değeridir.
+
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/64.png"> </p>
+
+Yani Bir boolean ifadeyi ele alalım. Bu ifadede değişkenlerin kombinasyonlarının VE işlemine alınması ve sonuçlarının 1 olacak şekilde uyarlanması işlemidir.
+
+### Maksiterim (Toplamların Çarpımı) :
+Standart toplamlar çarpımı şeklinde ifade edilmiş bir lojik ifadedeki her terim maxterm ismiyle anılır.  Üç değişkene sahip bir lojik ifade 8 adet maxterm (2^3) içerir. Bu maxtermler girişlerin sadece belli bir kombinasyonunda 0 değerini alır. Maxtermler indis ile ifade edilirler.  İndis, maxtermin değerini 0 yapan değişken kombinasyonunun decimal değeridir. Ayrıca maxtermler, mintermlerin değili olarak da düşünülebilir.
+
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/65.png"> </p>
+
+- ABC+A’B+BC’D’ veya A’+AB+BC’ ifadeleri çarpımlar toplamı formundadır.Oysa birden fazla değişkenin tümleyenini içeren terimler varsa çarpımlar
+toplamı formundadır diyemeyiz; örneğin lojik ifade (ABC)’ terimini içeriyorsa... Verilen lojik bir ifadeyi çarpımlar toplamı formuna dönüştürmek için Boole
+cebrinin kuralları kullanılır.
+
+
+Yani Yine bir boolean ifadeyi ele alalım. Bu ifadede değişkenlerin kombinasyonlarının VEYA işlemine alınması ve sonuçlarının 0 olacak şekilde uyarlanması işlemidir. 
+- Bir Boole fonksiyonu verilen bir doğruluk tablosuna göre mintermlerin toplanması (OR) ile ifade edilir. Doğruluk tablosunda 1 veren ifadelerin topla
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/67.png"> </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/68.png"> </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/66.png"> </p>
+<p align="center">   <img src="https://github.com/tonyukukkula/GaziBMmmF/blob/main/s%C4%B1n%C4%B1f2/donem2/Say%C4%B1sal%20Tasar%C4%B1m/Kaynak/69.png"> </p>
