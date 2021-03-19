@@ -1,5 +1,5 @@
 Hürmetler. Hataları bildirmek için destekleme isteği(PR) atabilir veya e-posta yoluyla <a href="mailto:alpkut55@gmail.com">ulaşabilirsiniz</a>.<br/>
-Şimdi konumuza gelelim okulumuz(Gazi Üniversitesi Mühendislik Fakültesi) Elektrik-Elektronik Mühendisliği öğrencileri bu derste ARM Assembly görecekleri için bu kaynak onlar adına çok faydalı olmayacağı kanısındayım.
+Şimdi konumuza gelelim okulumuz(Gazi Evrenkenti Mühendislik Bölümcesi) Elektrik-Elektronik Mühendisliği öğrencileri bu derste ARM Assembly görecekleri için bu kaynak onlar adına çok faydalı olmayacağı kanısındayım.
 Bu derste öncelikle Assembly ve doğası hakkında konuşmak isterim. Assembly her aletin(işlemcinin) yapısına:
 - Komut Seti Yapısına (ISA)
 - İşlemci Mimari Yapısına<br/>
