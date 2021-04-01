@@ -27,8 +27,55 @@ Yazacağımız x86 Assembly kodlarımızı üzerinde öykünetebileceğimiz(emul
 Ve ![bu bağlantı](https://emu8086-microprocessor-emulator.en.softonic.com/)dan indirilebilir.
 
 # Assembly İlk Adımlar
+Komutlar basittir ve programın "help" düğmesinden rahatça erişilebilmektedir.
+![image](https://user-images.githubusercontent.com/44534126/113336434-16312e80-932f-11eb-96c6-66de733c2bb8.png)
+Burada yukarıdan "8086 Instruction Set" bağıntısına tıklayarak tüm komutların listesine ulaşabilirsiniz.
+Yüksek ihtimal tüm komutlara ihtiyacınız olmayacak olursa da buradan okuyabilirsiniz.
+Kesinlikle bilinmesi gerekenler:
+- ADD
+- AND
+- CALL
+- CMP
+- DIV
+- INT
+- J[bayraklar] : JC, JNB
+- JMP
+- LEA
+- LOOP
+- MUL
+- MOV
+- NOT
+- OR
+- POP
+- PUSH
+- SUB
+- liste, üzerine düzgünce düşünülürse uzayıp gidebilir lâkin gerek görmedim. Bunların durumsal hallerini, çeşitli bayraklar ile etkileşimde olduğu zamanki hallerini yardım dökümanından kendi başınıza karıştırıp, kod örnekleri inceleyip öğreniminizi verimli hale getirebilirsiniz.
 
+## İyi bu komutları öğrenelim de reg ne memory ne immediate ne sreg ne?
+Tüm komutlar olmasa da çoğu komutlar "operand" denilen işleçlerle çalışır ve bunların dökümantasyondan layığıyla öğrenilmesi gerekli yoksa ekrana, _uygun tabirle_, mal gibi baktırır. 
 
+### REG(register/yazmaç) 
+Var olanlar: AX, BX, CX, DX, AH, AL, BL, BH, CH, CL, DH, DL, DI, SI, BP, SP.
+Burada ikinci karakteri X'li olan yazmaçlar 16 bit yazmaçlardır. 2. karakterdeki L=low(düşük) ve H=High(üst) 8'li bit dizilerini ifade eder; P=Pointer(işaretçi) bir şeyi işaret eden yazmaçlarda görürüz.
+
+![image](https://user-images.githubusercontent.com/44534126/113339744-9e193780-9333-11eb-9d17-dbb3fd69ee22.png)
+
+### Memory(hafıza)
+Adı üstünde hafızadaki konumu niteler. Köşeli parantezler içinde  BX, SI, DI, BP yazmaçları ile kullanılabilir, burjuvalar gibi [segment:konum] şeklinde kulllanmaya çalışmayın.  
+
+### Immediate(Hazır değer)
+Çeşitli tabanlardaki, _ikilik, sekizlik, onluk, on altılık_, sayıların şap diye işleç olarak kullanılan halidir.
+Örnek:
+```assembly
+mov al, 123 ;buradaki al yazmacına(alanı 256bit=2^8) ondalık tabanda şap diye 123 değerini girdik.
+;bir zımbırtı belirlemezsek hazır değerlerimiz ondalık olarak işlem görür
+;123h deseydik on altılık tabanda işlem görecekti
+;123b diyemezdik çünkü 2lik tabanda yalnızca 0 ve 1 var :D
+;123o deseydik sekizlik tabanda işlem görecekti
+```
+### SREG(segment yazmacı)
+Buradaki yazmaçlar segment ifade eder.
+![image](https://user-images.githubusercontent.com/44534126/113344836-48945900-933a-11eb-83a7-e5874600bcc6.png)
 
 
 
