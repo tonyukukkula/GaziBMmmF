@@ -31,6 +31,7 @@ Komutlar basittir ve programın "help" düğmesinden rahatça erişilebilmektedi
 ![image](https://user-images.githubusercontent.com/44534126/113336434-16312e80-932f-11eb-96c6-66de733c2bb8.png)
 Burada yukarıdan "8086 Instruction Set" bağıntısına tıklayarak tüm komutların listesine ulaşabilirsiniz.
 Yüksek ihtimal tüm komutlara ihtiyacınız olmayacak olursa da buradan okuyabilirsiniz.
+Burada şunu belirtmek gerekir ki bu kaynağın oluşturulma amacı bir şeyi öğretmek değil, bir şeyi nasıl öğrenilebileceğini öğretmek; bu sebeble komutların aldığı işleçleri, nasıl kullanıldıklarını veya ne işe yaradıklarını yazmayacağım.
 Kesinlikle bilinmesi gerekenler:
 - ADD
 - AND
@@ -49,7 +50,7 @@ Kesinlikle bilinmesi gerekenler:
 - POP
 - PUSH
 - SUB
-- liste, üzerine düzgünce düşünülürse uzayıp gidebilir lâkin gerek görmedim. Bunların durumsal hallerini, çeşitli bayraklar ile etkileşimde olduğu zamanki hallerini yardım dökümanından kendi başınıza karıştırıp, kod örnekleri inceleyip öğreniminizi verimli hale getirebilirsiniz.
+<br/>Liste, üzerine düzgünce düşünülürse uzayıp gidebilir lâkin gerek görmedim. Bunların durumsal hallerini, çeşitli bayraklar ile etkileşimde olduğu zamanki hallerini yardım dökümanından kendi başımıza karıştırıp, kod örnekleri inceleyip öğreniminizi verimli hale getirebilirsiniz.
 
 ## İyi bu komutları öğrenelim de reg ne memory ne immediate ne sreg ne?
 Tüm komutlar olmasa da çoğu komutlar "operand" denilen işleçlerle çalışır ve bunların dökümantasyondan layığıyla öğrenilmesi gerekli yoksa ekrana, _uygun tabirle_, mal gibi baktırır. 
@@ -78,7 +79,53 @@ Buradaki yazmaçlar segment ifade eder.
 ![image](https://user-images.githubusercontent.com/44534126/113344836-48945900-933a-11eb-83a7-e5874600bcc6.png)
 
 
+# Kod Örnekleri
+Elimiz ısınsın diye bir kabarcık sıralama bırakıyorum buraya
 
+<details><summary>Kabarcık sıralama kodunu görmek için tıklayınız</summary>
+<p>
+Buyrunuz
+
+```assembly
+org 100h ; programı başlatmak için
+lea bx, dizi ; dizi adlı değişkenin ilk elemanının adresini bx'e atadık
+mov si, 0 ; indexleri gezmek için si yazmacını kullandık
+mov cx, 0 ; burada loop kullanmak istemediğim için cx = 0 ataması gerçekleştirdim,
+          ; peki loop kullansaydım buraya ihtiyaç var mıydı?
+          ; yoksa varsa gene 0 mı olması gerekirdi?
+          
+karsilastir: ; okunabilirliği arttırmak ve oradan oraya zıplamak için etiket(label)li çalıştık
+    mov al, [bx+si]     ; al = dizi[i] buradaki si=i
+    inc si              ; i++
+    mov dl, [bx+si]     ; dl = dizi[++i]
+    cmp al, dl          ; al-dl ? Bayraklara düşecek sonuçlar
+    jg  degistir        ; "Jump Greater" ilk işleç daha büyükse atla anlamına gelir: (ZF = 0) ve (SF = OF) 
+    jmp bakiver         ; eğer ilk işleç daha büyük değilse "bakiver" etiketine atlanacak
+    
+degistir:               ; değerleri değiştiriyoruz
+    dec si              ; si yazmacındaki değer 1 azalacak
+    mov [bx+si], dl     
+    inc si
+    mov [bx+si], al
+    jmp bakiver
+    
+bakiver:
+    mov ax, 4           ; son indexi olan 4
+    cmp ax, si          ; si yazmacındaki değer index kontrolu için
+    jg karsilastir      ; index kontrolu
+    inc cx              ; her tur sonu cx yazmacındaki değer kaçıncı turda olunduğunun kontrolu için
+    mov si, cx          ; her tur sonu bir sonraki tur değerinden çizgisel taramaya devam ediyor
+    cmp cx, 4           ; son turu olan 4'ü kontrol ediyor 
+    jg bitir
+    
+bitir:
+    ret
+    
+dizi db 1,3,2,5,4       ; byte dizisi - buradaki db ifadesi "DefineByte" anlamına gelmektedir. 
+end
+```
+</p>
+</details>
 
 
 # Yararlı Bağlantılar
