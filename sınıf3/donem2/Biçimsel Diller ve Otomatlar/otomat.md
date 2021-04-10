@@ -49,11 +49,9 @@ göstermektedir.
 > kullanılabilir. Soru olarak bir dil verilir ve "Bu dili tanıyan
 > otomat" istenilebilir.
 
-![](media/image3.png){width="2.062787620297463in"
-height="0.2500349956255468in"}**Sonlu Otomat**
+![](media/image3.png)**Sonlu Otomat**
 
-![](media/image4.png)
-![](media/image5.png)**Örnek:**
+![](media/image4.png)![](media/image5.png)**Örnek:**
 
 (p.34)
 
