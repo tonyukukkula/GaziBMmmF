@@ -11,7 +11,7 @@ Sonrasında çeşitli diller geliştirilmiş ki insanlar farklı bilgisayarlar k
 
 <div style="margin-left:auto,margin-right: auto" align="center"><img width="300" src="https://media1.tenor.com/images/0d0077a13fff517c97916da3ccb27ec8/tenor.gif?itemid=17051074"/></div></br>
 
-_İlk yazılımcılar arasında erkek yok denecek kadar azdır bunun  asıl nedeni gâvurların 80li yıllara kadar yazılımın değerini kavrayamaması ve asıl işin donanımda olduğunu düşünmesinden dolayı yazılım için "software" yani "cıvık-yumuşak mal" muamelesi yapmaları bu yüzden erkeklere yakıştırılmamasıdır; "hardware" ise "sert-zor mal" anlamına gelip bu iş için daha fazla nitelik gerektirdiğini düşünmeleridir._</br>
+_İlk yazılımcılar arasında erkek yok denecek kadar azdır bunun  asıl nedeni gâvurların 70li yıllara kadar yazılımın değerini kavrayamaması ve asıl işin donanımda olduğunu düşünmesinden dolayı yazılım için "software" yani "cıvık-yumuşak mal" muamelesi yapmaları bu yüzden erkeklere yakıştırılmamasıdır; "hardware" ise "sert-zor mal" anlamına gelip bu iş için daha fazla nitelik gerektirdiğini düşünmeleridir._</br>
 
 Giriş kısmını geride bıraktığımıza göre Assembly nedir kısmına hafiften gelelim.
 
@@ -91,19 +91,22 @@ org 100h
 lea bx, data        ; datanin bellege yerlestirilmeye baslandigi adres
 mov si, 0           ; incelecek indisi tutan zımbırtı
 mov cx, 5           ; loop kontrolu için cx'e değer ataması gerekmektedir
-mov al, [bx]        ;  
+mov al, [bx]        ; dizimizin ilk elemanını al'ye atıyoruz
+;         burada al kullanılması sebebi sayıların 256dan küçük olması ve 256dan küçük olduğunda
+;         birden fazla mov komutu ile ax'e atama yaparsak önce al'ye sonra sonra ah'ye atacak sonra işler karışacaktır. 
+;         arada böyle olur çok takmayın.
 enkucukbul:
-    mov dl, [bx+si]
-    cmp al, dl
-    jg kucukdegistir
-    inc si
-    loop enkucukbul
-    jmp bulundu
-kucukdegistir:
-    mov al, 0
-    mov al, dl
-    inc si
-    loop enkucukbul
+    mov dl, [bx+si] ; ilk eleman al'de tutuluyor, dl'de sonraki elemana bakılacak.
+    cmp al, dl      ; bir sonraki eleman daha mı küçük? (1)
+    jg kucukdegistir; bir sonraki eleman daha küçükse kucukdegistir'e atla (2)
+    inc si          ; kaynak indisi(source index) arttır
+    loop enkucukbul ; cx=cx-1, jmp enkucukbul
+    jmp bulundu     ; bulundu'ya atla, eğer bunu yazmasaydık döngü bittiğinde alttan satır satır işlemeye devam ederdi.
+kucukdegistir: 
+    mov al, 0       ; biz ayağımızı denk alalım
+    mov al, dl      ; dl daha küçüktü ya ondan onu al'ye alıyoruz çünkü küçük sayıyı al'de tutmamız gerek (1)'deki ve (2)'deki mantıktan ötürü
+    inc si          ; si artacak uleyn
+    loop enkucukbul ; cx=cx-1, jmp enkucukbul
 bulundu:
     ret
 data db 12, 20, 10, 14, 5
@@ -115,6 +118,35 @@ data db 12, 20, 10, 14, 5
           
           
 ### dizideki en büyük sayıyı
+<details><summary>Kabarcık sıralama kodunu görmek için tıklayınız</summary><p>
+
+```assembly
+org 100h
+lea bx, data        ; datanin bellege yerlestirilmeye baslandigi adres
+mov si, 0           ; incelecek indisi tutan zımbırtı
+mov cx, 5           ; loop kontrolu için cx'e değer ataması gerekmektedir
+mov al, [bx]        ; dizimizin ilk elemanını al'ye atıyoruz
+;         burada al kullanılması sebebi sayıların 256dan küçük olması ve 256dan küçük olduğunda
+;         birden fazla mov komutu ile ax'e atama yaparsak önce al'ye sonra sonra ah'ye atacak sonra işler karışacaktır.
+;         arada böyle olur çok takmayın.
+enbuyukbul:
+mov dl, [bx+si] ; ilk eleman al'de tutuluyor, dl'de sonraki elemana bakılacak.
+cmp al, dl      ; bir sonraki eleman daha mı büyük? (1)
+jl buyukdegistir; bir sonraki eleman daha büyükse büyükdegistir'e atla (2)
+inc si          ; kaynak indisi(source index) arttır
+loop enbuyukbul ; cx=cx-1, jmp enbuyukbul
+jmp bulundu     ; bulundu'ya atla, eğer bunu yazmasaydık döngü bittiğinde alttan satır satır işlemeye devam ederdi.
+buyukdegistir:
+mov al, 0       ; biz ayağımızı denk alalım
+mov al, dl      ; dl daha büyüktü ya ondan onu al'ye alıyoruz çünkü büyük sayıyı al'de tutmamız gerek (1)'deki ve (2)'deki mantıktan ötürü
+inc si          ; si artacak uleyn
+loop enbuyukbul ; cx=cx-1, jmp enbuyukbul
+bulundu:
+ret
+data db 12, 20, 10, 14, 5
+end
+```
+</p></details>
 
 ### kabarcık sıralama
 <details><summary>Kabarcık sıralama kodunu görmek için tıklayınız</summary>
