@@ -65,12 +65,12 @@ Burada ikinci karakteri X'li olan yazmaçlar 16 bit yazmaçlardır. 2. karakterd
 Adı üstünde hafızadaki konumu niteler. Köşeli parantezler içinde  BX, SI, DI, BP yazmaçları ile kullanılabilir, burjuvalar gibi [segment:konum] şeklinde kulllanmaya çalışmayın.  
 
 ### Immediate(Hazır değer)
-Çeşitli tabanlardaki, _ikilik, sekizlik, onluk, on altılık_, sayıların şap diye işleç olarak kullanılan halidir.
+Çeşitli tabanlardaki, _ikilik, sekizlik, onluk, onaltılık_, sayıların şap diye işleç olarak kullanılan halidir.
 Örnek:
 ```assembly
-mov al, 123 ;buradaki al yazmacına(alanı 256bit=2^8) ondalık tabanda şap diye 123 değerini girdik.
+mov al, 123 ;buradaki al yazmacına(alanı 2^8= 1byte= ondalık tabanda sınırlar dahil 0-256) ondalık tabanda şap diye 123 değerini girdik.
 ;bir zımbırtı belirlemezsek hazır değerlerimiz ondalık olarak işlem görür
-;123h deseydik on altılık tabanda işlem görecekti
+;123h deseydik onaltılık tabanda işlem görecekti
 ;123b diyemezdik çünkü 2lik tabanda yalnızca 0 ve 1 var :D
 ;123o deseydik sekizlik tabanda işlem görecekti
 ```
