@@ -26,8 +26,7 @@ göstermektedir.
 -   Matematiksel Terimler hatırlanmalı, çünkü ders içinde matematiksel
     ifadeler de tanımlanacak
 
-    -   ![](media/image1.png){width="1.9145833333333333in"
-        height="0.4097222222222222in"}.
+    -   ![](media/image1.png).
 
     -   ![](media/image2.png){width="1.8854166666666667in"
         height="0.311321084864392in"}.
