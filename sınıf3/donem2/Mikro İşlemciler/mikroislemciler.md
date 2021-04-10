@@ -118,7 +118,7 @@ data db 12, 20, 10, 14, 5
           
           
 ### dizideki en büyük sayıyı
-<details><summary>Kabarcık sıralama kodunu görmek için tıklayınız</summary><p>
+<details><summary>ilgili kodu görmek için tıklayınız</summary><p>
 
 ```assembly
 org 100h
