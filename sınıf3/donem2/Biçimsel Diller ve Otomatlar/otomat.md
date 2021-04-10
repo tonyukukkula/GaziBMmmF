@@ -26,9 +26,11 @@ göstermektedir.
 -   Matematiksel Terimler hatırlanmalı, çünkü ders içinde matematiksel
     ifadeler de tanımlanacak
 
-    -   ![](media/image1.png)
+    -   ![](media/image1.png){width="1.9145833333333333in"
+        height="0.4097222222222222in"}.
 
-    -   ![](media/image2.png)
+    -   ![](media/image2.png){width="1.8854166666666667in"
+        height="0.311321084864392in"}.
 
 -   Çizgeler (Graflar)
 
@@ -49,18 +51,24 @@ göstermektedir.
 > kullanılabilir. Soru olarak bir dil verilir ve "Bu dili tanıyan
 > otomat" istenilebilir.
 
-![](media/image3.png)**Sonlu Otomat**
+![](media/image3.png){width="2.062787620297463in"
+height="0.2500349956255468in"}**Sonlu Otomat**
 
-![](media/image4.png)![](media/image5.png)**Örnek:**
+![](media/image4.png){width="3.0097222222222224in"
+height="1.2069444444444444in"}![](media/image5.png){width="1.9048611111111111in"
+height="1.2256944444444444in"}**Örnek:**
 
 (p.34)
 
-![](media/image6.png)
+![](media/image6.png){width="5.774305555555555in"
+height="1.7013888888888888in"}
 
 GENEL TANIM:
 
-![](media/image7.png)
-![](media/image8.png)
+![](media/image7.png){width="3.446632764654418in"
+height="1.2923458005249344in"}
+![](media/image8.png){width="2.9245286526684167in"
+height="1.2069444444444444in"}
 
 Yardımcı olacak çözümlü örnek soru sayfaları;
 
@@ -68,7 +76,8 @@ Yardımcı olacak çözümlü örnek soru sayfaları;
 
 -   P.43- 1.21
 
-![](media/image9.png)
+![](media/image9.png){width="5.1204647856517935in"
+height="1.3867924321959755in"}
 
 **SONLU OTOMAT TASARIM ADIMLARI:**
 
@@ -100,8 +109,9 @@ farklı incelemelerle örnekler ile farklarını daha net anlayabiliriz.
 
 -   P.51- 1.30
 
--   ![](media/image10.png)
-![](media/image11.png)P.54- 1.38
+-   ![](media/image10.png){width="3.1405555555555558in"
+    height="1.1886800087489064in"}![](media/image11.png){width="3.2618055555555556in"
+    height="1.1993055555555556in"}P.54- 1.38
 
 **DFA vs. NFA Örneği**
 
