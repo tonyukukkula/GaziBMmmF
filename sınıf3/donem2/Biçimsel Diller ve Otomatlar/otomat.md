@@ -26,9 +26,9 @@ göstermektedir.
 -   Matematiksel Terimler hatırlanmalı, çünkü ders içinde matematiksel
     ifadeler de tanımlanacak
 
-    -   ![](media/image1.png)
+    -   ![](media/image1.png)<br/>
 
-    -   ![](media/image2.png)
+    -   ![](media/image2.png)<br/>
 
 -   Çizgeler (Graflar)
 
@@ -49,19 +49,22 @@ göstermektedir.
 > kullanılabilir. Soru olarak bir dil verilir ve "Bu dili tanıyan
 > otomat" istenilebilir.
 
-![](media/image3.png)**Sonlu Otomat**
+**Sonlu Otomat**
+![](media/image3.png)<br/>
 
-![](media/image4.png)
-![](media/image5.png)**Örnek:**
 
-(p.34)
+**Örnek:** (p.34)<br/>
+![](media/image6.png)<br/>
+Otomat:<br/>
+![](media/image4.png)<br/>
+Otomattaki göstergelerin anlamları:<br/>
+![](media/image5.png)<br/>
 
-![](media/image6.png)
 
 GENEL TANIM:
 
-![](media/image7.png)
-![](media/image8.png)
+![](media/image7.png)<br/>
+![](media/image8.png)<br/>
 
 Yardımcı olacak çözümlü örnek soru sayfaları;
 
@@ -69,7 +72,7 @@ Yardımcı olacak çözümlü örnek soru sayfaları;
 
 -   P.43- 1.21
 
-![](media/image9.png)
+![](media/image9.png)<br/>
 
 **SONLU OTOMAT TASARIM ADIMLARI:**
 
@@ -101,7 +104,7 @@ farklı incelemelerle örnekler ile farklarını daha net anlayabiliriz.
 
 -   P.51- 1.30
 
--   ![](media/image10.png)
+-   ![](media/image10.png)<br/>
 -   ![](media/image11.png)<br/>P.54- 1.38
 
 **DFA vs. NFA Örneği**
