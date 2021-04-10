@@ -1,5 +1,10 @@
 **BİÇİMSEL DİLLER VE OTOMATLAR**
 
+# **Sözü Geçen Çalışmalar**
+
+Sipser, M. (2013). *Introduction to the Theory of Computation.* Boston:
+CENGAGE Learning.
+
 **Giriş**\
 (Bu maddeler kısa Google aramaları ile fikir sahibi olunması gereken,
 teorik bilgilerdir.)\
@@ -10,10 +15,7 @@ farklı kaynaklara yönlendirme ve yol gösterme amacıyla oluşturulmuştur.
 Ders Slaytlarına erişiminiz olması ve bu kaynağı kullanmanız içeriklerin
 anlaşılması açısından en verimli yol olacaktır.**
 
-# **Sözü Geçen Çalışmalar**
 
-Sipser, M. (2013). *Introduction to the Theory of Computation.* Boston:
-CENGAGE Learning.
 
 Kaynağına ulaşılıp ayrıntılı ders içerikleri incelenebilir.
 Dokümantasyondaki (p.x) gibi sayfalar bu kitaptaki sayfaları
