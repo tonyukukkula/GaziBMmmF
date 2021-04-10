@@ -97,9 +97,9 @@ Otomat (NFA)**
 
 2.  <https://www.geeksforgeeks.org/designing-deterministic-finite-automata-set-1/>
 
-3.  <https://www.geeksforgeeks.org/designing-non-deterministic-finite-automata-set-1/>
+3.  <https://www.geeksforgeeks.org/designing-non-deterministic-finite-automata-set-1/><br/>
 
-2\. ve 3. Linklerde, en sondaki "set-x" (x bir sayı) şeklinde arttırarak
+> 2. ve 3. Linklerde, en sondaki "set-x" (x bir sayı) şeklinde arttırarak
 farklı incelemelerle örnekler ile farklarını daha net anlayabiliriz.
 ---
 **NFA Örnek Sayfası**
@@ -120,6 +120,7 @@ farklı incelemelerle örnekler ile farklarını daha net anlayabiliriz.
 -   P.54- 1.39
 
 <https://www.geeksforgeeks.org/conversion-from-nfa-to-dfa/>
+
 ---
 **Regular Expressions**
 
@@ -141,10 +142,12 @@ En sondaki "set-x" (x bir sayı) şeklinde arttırarak farklı incelemelerle
 örnekler ile farklarını daha net anlayabiliriz.
 
 <https://www.javatpoint.com/automata-conversion-of-re-to-fa>
+
 ---
 **Düzensiz Diller**
 
 <https://acikders.ankara.edu.tr/pluginfile.php/87075/mod_resource/content/0/6-notes-NonregularLanguages.pdf>
+
 ---
 **Pumping Lemma**
 
@@ -153,6 +156,7 @@ P.77
 P.80- 1.73
 
 <https://www.geeksforgeeks.org/pumping-lemma-in-theory-of-computation/>
+
 ---
 **Düzensiz ve Pumping Lemma için**
 
@@ -162,10 +166,12 @@ P.80- 1.73
 inceleyebilirsiniz.**
 
 <http://www.cs.cornell.edu/courses/cs2800/2009sp/280wk14_x4.pdf>
+
 ---
 **Başlıklara uygun önerilebilecek video kaynağı:**
 
 - <https://youtu.be/58N2N7zJGrQ>
+
 ---
 **Türkçe Çözümlü Çıkmış Sorular**
 
@@ -174,6 +180,7 @@ inceleyebilirsiniz.**
 - <https://kilinjos.files.wordpress.com/2010/07/sorular1.pdf>
 
 - <https://ceng2.ktu.edu.tr/~cakir/otomata.html>
+
 ---
 **İngilizce Çözümlü Çıkmış Sorular**
 
