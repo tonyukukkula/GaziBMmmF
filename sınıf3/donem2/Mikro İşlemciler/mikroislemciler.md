@@ -80,8 +80,43 @@ Buradaki yazmaçlar segment ifade eder.
 
 
 # Kod Örnekleri
-Elimiz ısınsın diye bir kabarcık sıralama bırakıyorum buraya
+Kod okunmadan öğrenilemeyeceği için ihtiyaç duyabileceğiniz çeşitli kodları buraya bırakıyorum.
 
+### dizideki en küçük sayıyı bulma
+<details><summary>ilgili kodu görmek için tıklayınız</summary>
+<p> 
+          
+```assembly 
+org 100h
+lea bx, data        ; datanin bellege yerlestirilmeye baslandigi adres
+mov si, 0           ; incelecek indisi tutan zımbırtı
+mov cx, 5           ; loop kontrolu için cx'e değer ataması gerekmektedir
+mov al, [bx]        ;  
+enkucukbul:
+    mov dl, [bx+si]
+    cmp al, dl
+    jg kucukdegistir
+    inc si
+    loop enkucukbul
+    jmp bulundu
+kucukdegistir:
+    mov al, 0
+    mov al, dl
+    inc si
+    loop enkucukbul
+bulundu:
+    ret
+data db 12, 20, 10, 14, 5
+    end       
+```
+</p>
+</details>          
+          
+          
+          
+### dizideki en büyük sayıyı
+
+### kabarcık sıralama
 <details><summary>Kabarcık sıralama kodunu görmek için tıklayınız</summary>
 <p>
 Buyrunuz
