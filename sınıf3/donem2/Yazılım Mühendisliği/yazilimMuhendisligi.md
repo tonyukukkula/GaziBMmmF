@@ -58,8 +58,7 @@ kullandığı şeyler olmasına karşın günümüzde programlama oldukça büy�
 karmaşık, uzun süre zarfında birbirleriyle iş birliği içinde çalışan
 takımlar tarafından geliştiriliyor.
 
-![](media\image1.png){width="6.583333333333333in"
-height="4.673611111111111in"}
+![](media/image1.png)
 
 **Bilgisayar programı,** yazdığımız komutlar grubudur.
 
@@ -238,7 +237,7 @@ için ortak olanlar:
 
 **Süreç modelleri**
 
-![](media\image2.png){width="3.875in" height="3.421901793525809in"}
+![](media/image2.png)
 
 Her probleme başlamadan önce [yapılabilirlik]{.ul} araştırması yapılır
 ve her problemin çözümü bilgisayar otomasyonu olmayabilir.
@@ -258,8 +257,8 @@ Teslim sürecinde
 
 **Genel Yazılım Süreç Modelleri**
 
-![](media\image3.png){width="3.178571741032371in"
-height="1.552496719160105in"}[Kodla ve Düzelt:]{.ul}
+![](media/image3.png)
+[Kodla ve Düzelt:]{.ul}
 
 -   Küçük projelerde sıklıkla kullanılan modeldir.
 
@@ -279,8 +278,7 @@ height="1.552496719160105in"}[Kodla ve Düzelt:]{.ul}
 
 [Temel Çağlayan Modeli]{.ul}
 
--   ![](media\image4.png){width="3.285715223097113in"
-    height="1.6182294400699913in"}Sonraki faz bir önceki faz
+-   ![](media/image4.png)Sonraki faz bir önceki faz
     tamamlanmadan başlayamaz.
 
 -   Müşteriler tarafından, son kullanıcılar ve ekip tarafından iyi
@@ -310,8 +308,7 @@ height="1.552496719160105in"}[Kodla ve Düzelt:]{.ul}
 
 [V Modeli]{.ul}
 
-![](media\image5.png){width="3.5006944444444446in"
-height="1.9819444444444445in"}
+![](media/image5.png)
 
 -   Tamamen test odaklı ilerleyen bir yapısı var.
 
@@ -321,16 +318,14 @@ height="1.9819444444444445in"}
 
 -   Kullanımı kolaydır.
 
--   ![](media\image6.png){width="3.446428258967629in"
-    height="2.7204899387576553in"}Aynı zamanda gerçekleştirilebilecek
+-   ![](media/image6.png) Aynı zamanda gerçekleştirilebilecek
     olaylara kolay imkan tanımaz.
 
 -   Fazlar arasında tekrarlamaları kullanılmaz.
 
 [Evrimsel Geliştirme]{.ul}
 
--   ![](media\image7.png){width="3.6305555555555555in"
-    height="2.2465277777777777in"}Anahat gereksinimleri ile başlangıç
+-   ![](media/image7.png)Anahat gereksinimleri ile başlangıç
     sistemi geliştirilir.
 
 -   Müşteri geribildirimi ile pek çok versiyonla yavaş yavaş
@@ -352,13 +347,12 @@ height="1.9819444444444445in"}
 
 -   Bakımı zordur.
 
-![](media\image8.png){width="4.606944444444444in"
-height="2.495138888888889in"}
+![](media/image8.png)
 
 **Karşılaştırma**
 
-![](media\image9.png){width="3.10119094488189in"
-height="3.049504593175853in"}[Prototipleme]{.ul}
+![](media/image9.png)
+[Prototipleme]{.ul}
 
 -   Belgelendirmesi olmayan hızlı ve kirli prototipler ortaya çıkar.
 
@@ -370,8 +364,7 @@ height="3.049504593175853in"}[Prototipleme]{.ul}
 
 [Spiral Model]{.ul}
 
-![](media\image10.png){width="3.428571741032371in"
-height="3.484983595800525in"}
+![](media/image10.png)
 
 -   Hedefler, alternatifler ve kısıtlamalar belirlenir.
 
@@ -420,4 +413,4 @@ height="3.484983595800525in"}
 
 [Yeniden Kullanıma Yönelik Geliştirme]{.ul}
 
-![](media\image11.png){width="6.3in" height="2.0256944444444445in"}
+![](media/image11.png)
