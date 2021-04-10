@@ -4,6 +4,10 @@ Bu derste öncelikle Assembly ve doğası hakkında konuşmak isterim. Assembly 
 - Komut Seti Yapısına (ISA)
 - İşlemci Mimari Yapısına<br/>
 bağlıdır. Yukarı seviyeden(high level) bakınca çok ilkel gelebilir ama bilgisayar biliminin transistörün icadından sonraki çağına baktığımızda çok *manyak* bir şey olduğunu anlıyoruz.<br>
+
+Her "mikroişlemci ve assembly" kitabında iki haneli sayıda giriş kısmı bulunur, bu kısmın hikayesini
+<details><summary>buraya tıklayarak açıp okuyabilirsiniz</summary>
+<p> 
 Bu gelişimi şöyle özetleyim: bilgisayar bilimi transistörün icadından sonra sayısal tasarım harikaları olduğu kavranmış lâkin ortada bir birlik olmadığını görmüşler. Her bilgisayar kendi başına bir cumhuriyet olduğu dönemlerde insanlık kendisi gibi kavga dövüşsüz birlik olunca daha güçlü olduğunu bildiği gibi bilgisayar biliminin de daha güçlü olabileceğini kavramışlar ve bir ortak zemin kurmak istemişler sonuçta kim yanında hayvan gibi delikli programlama kayıtçısı taşımak ister ki?<br>
 <div style="margin-left:auto,margin-right: auto" align="center"><img src="https://i.ytimg.com/vi/wALFrUd6Ttw/hqdefault.jpg" alt="punch card and altair 8800"><br/>soldan akıp giden gri şerit delikli programlama kayıtçısı(punched card)<img/></div><br/>
 
@@ -14,6 +18,8 @@ Sonrasında çeşitli diller geliştirilmiş ki insanlar farklı bilgisayarlar k
 _İlk yazılımcılar arasında erkek yok denecek kadar azdır bunun  asıl nedeni gâvurların 70li yıllara kadar yazılımın değerini kavrayamaması ve asıl işin donanımda olduğunu düşünmesinden dolayı yazılım için "software" yani "cıvık-yumuşak mal" muamelesi yapmaları bu yüzden erkeklere yakıştırılmamasıdır; "hardware" ise "sert-zor mal" anlamına gelip bu iş için daha fazla nitelik gerektirdiğini düşünmeleridir._</br>
 
 Giriş kısmını geride bıraktığımıza göre Assembly nedir kısmına hafiften gelelim.
+</p>
+</details>
 
 # Assembly Nedir?
 Assembly makina dili üzerinde bulunan ve kendi makina-kod dönüştürücüsü(assembler) yardımıyla yazılan kodu makina diline çeviren bir güzelliktir. C yazdığınızda C derleyicisi kodu Assembly'ye onu da makina koduna çevirir. Bu çevirimde arada olan güzellikleri listelersek listemiz şu şekilde olacaktır.
@@ -39,7 +45,7 @@ Kesinlikle bilinmesi gerekenler:
 - CMP
 - DIV
 - INT
-- J[bayraklar] : JC, JNB
+- J[bayrakları ilgirendiren durumlar] : JC, JNB, JG, Jl
 - JMP
 - LEA
 - LOOP
