@@ -7,7 +7,7 @@
 <li> Bazı problemler, verimli şekilde çözülebilir. Bu derste bu çözümlerin tasarlanması ve analiziyle başlanacak ve sonra çözümü verimsiz olan problemler incelenecektir.
 <br><br>
 
-### Hesap Karmaşası (Computational Complexity)
+### Hesaplama Karmaşası (Computational Complexity)
 <li> Algoritmanın çalışması için gerekli kaynağın (zaman ve hafıza) ölçüsüdür.
 
 <li> Hafıza birimlerinin gittikçe ucuzlaması ve bir işin daha kısa sürede sonuç vermesi istendiğinden zaman karmaşası daha önemli kabul edilir.
