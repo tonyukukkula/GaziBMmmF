@@ -103,8 +103,7 @@ tekniktir.
 
 Mutlak hata =$⃒gerçek\ değer - hesaplanan\ değer⃒$
 
-![](media/image1.png){width="2.066666666666667in"
-height="0.6658562992125985in"}
+![](media/image1.png)
 
 Mutlak hata tekniğinde, gerçek değer ve hesaplanan değerin bilinmesi
 gerekir.
@@ -126,12 +125,11 @@ Bağıl hata aşağıdaki işlem ile bulunur:
 
 Bağıl hata = $\frac{Gerçek\ değer - Hesaplanan\ değer}{Gerçek\ değer\ }$
 
-![](media/image2.png){width="2.2333333333333334in"
-height="0.8320253718285214in"}
+![](media/image2.png)
 
 Hatanın yüzdesel değerini bulmak için 100 ile çarpmak yeterlidir.
 
-![](media/image3.png){width="2.65in" height="0.5668186789151356in"}
+![](media/image3.png)
 
 Örnek: π sayısının yaklaşık değeri 3,14 olsun. Bu değerin bağıl hata
 oranını hesaplayın.
@@ -153,17 +151,13 @@ sayısının en iyi tahmini kullanılmalıdır, ancak ne yazık ki en iyi
 tahmin yine hesapladığımız tahmindir. X'in gerçek değerine ancak x'e
 sıralı şekilde verdiğimiz değerler ile yaklaşabiliriz;
 
-![](media/image4.png){width="0.38333333333333336in"
-height="0.24166666666666667in"} mutlak hata
+![](media/image4.png) mutlak hata
 
-![](media/image5.png){width="1.9166666666666667in"
-height="0.4583333333333333in"}
+![](media/image5.png)
 
 Bağıl hata ise yine benzer şekilde;
 
-![](media/image6.png){width="2.3815977690288714in"
-height="0.475in"}![](media/image7.png){width="2.1in"
-height="0.6416666666666667in"}veya denklemi ile bulunur.
+![](media/image6.png)![](media/image7.png)veya denklemi ile bulunur.
 
 Örnek olarak; bize bir denklem verilsin ve bu denklemin \[1,3\] arasında
 herhangi bir kökünün olup olmadığı sorulduğunda f(1).f(3)\<0 çıkar ise
@@ -172,8 +166,7 @@ diyebiliriz. Böylece kökümüzü arayacağımız yer gittikçe somutlaşır.
 
 Bu teoremin adı Ara Değer teoremidir.
 
-![](media/image8.png){width="4.680312773403324in"
-height="2.6729166666666666in"}
+![](media/image8.png)
 
 Görüldüğü üzere fonksiyon x=a değeri için negatif sonuç verirken, x=b
 için pozitif değer vermektedir. Bu durumda fonksiyon bu aralıkta x
@@ -201,13 +194,11 @@ Kesme hatalarında Taylor Serisi'nin kavranması çok önemlidir.
 
 Taylor Serisi şu şekildedir:
 
-![](media/image9.png){width="3.7333333333333334in"
-height="1.0666666666666667in"}
+![](media/image9.png)
 
 Maclaurin Serisi de Taylor Serisi'nden türetilmiştir;
 
-![](media/image10.png){width="2.091666666666667in"
-height="0.8288560804899388in"}
+![](media/image10.png)
 
 Aralarındaki fark sadece a'nın 0 seçilmesidir.
 
@@ -247,23 +238,19 @@ Peki kesme işlemi yaparken nelere dikkat edilmeli?
 
 4.  Eğer 0 ondalık sayı belirtiyorsa (3.0 veya 300.) şeklinde önemlidir.
 
-![](media/image11.png){width="5.372264873140858in"
-height="1.4333333333333333in"}
+![](media/image11.png)
 
 Bilgisayarlar bu sayıları, ikilik sayı sistemine çevirerek kullanır.
 Aşağıdaki sistem sayesinde kolayca çevrilebilir. 263,03 e bakalım:
 
-![](media/image12.png){width="4.731714785651794in"
-height="2.341666666666667in"}
+![](media/image12.png)
 
-![](media/image13.png){width="2.575in"
-height="0.225in"}![](media/image14.png){width="0.7666666666666667in"
-height="0.19166666666666668in"}
+![](media/image13.png)![](media/image14.png)
 
 Virgülden sonrası için bu işlemin tersi yapılır. Yani 2 ye bölmek yerine
 2 ile çarpılır;
 
-![](media/image15.png){width="2.475in" height="2.091666666666667in"}
+![](media/image15.png)
 
 Sayı sisteminde Çevirmeler hakkında detaylı video
 
