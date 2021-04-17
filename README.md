@@ -1,6 +1,6 @@
 # GaziBMmmF
-*Herkese mrbmrbmrb*<br> 
-Okulumuz Bilgisayar Mühendisliği öğrencilerine yararlı olabilecek bir kaynak tabanı oluşturmak ve nasıl öğretebileceğini bilmeyen/unutan hocalarımıza nasıl öğretilebileceğini öğretebilecek bir kaynak oluşumuna iskelet oluşturma adına ilk adımlarımızı atmış bulunuyoruz. Yardımcı olmak isteyen arkadaşlar ilgili mail adresinden(alpkut55@gmail.com) ulaşabilirler.
+Burası gazi-bmt github hesabında yayına alınacak yazıların piştiği yerdir.
+
 - ![1.Sınıf alanı için](https://github.com/tonyukukkula/GaziBMmmF/tree/main/sınıf1)
     - ![*1. Sınıf hakkında yazısı*](https://github.com/tonyukukkula/GaziBMmmF/blob/main/sınıf1/sinif1.md)<br>
     - ![1.Sınıf 1.Dönem alanı için](https://github.com/tonyukukkula/GaziBMmmF/tree/main/sınıf1/donem1)
